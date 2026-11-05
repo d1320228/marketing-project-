@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #E74C3C; /* 復古赤紅色（強調與Logo） */
+    --text-main: #1A1A1A;     /* 墨色（標題與正文文字） */
+    --bg-paper: #FDFBF7;     /* 泛黃宣紙白（全域底色） */
+    --border-color: #D6D0C4; /* 大地灰邊框與線條 */
+    --card-bg: #FFFFFF;      /* 純白卡片背景 */
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-paper);
+    line-height: 1.6;
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+}
